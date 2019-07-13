@@ -41,8 +41,6 @@
          <item name="android:textColorHighlight">@color/text_highlight_color</item>
          <item name="actionBarStyle">@style/BugleActionBar</item>
          <item name="apnPreferenceStyle">@style/ApnPreference</item>
-         <item name="android:navigationBarColor">@color/navigation_bar_color</item>
-         <item name="android:windowLightNavigationBar">@bool/windowLightNavigationBar</item>
          <item name="android:listViewStyle">@style/ListViewStyle</item>
          <item name="actionBarPopupTheme">@style/PopupMenuStyleAppCompat</item>
          <item name="android:actionBarPopupTheme">@style/PopupMenuStyleAppCompat</item>
@@ -60,9 +58,8 @@
     <style name="PopupMenuStyleAppCompat" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
     </style>
 
-    <style name="BugleTheme.ConversationActivity" parent="@style/BugleTheme.ConversationActivityBase">
-         <item name="android:navigationBarColor">@color/navigation_bar_color</item>
-         <item name="android:windowLightNavigationBar">@bool/windowLightNavigationBar</item>
+    <style name="BugleTheme.ConversationActivity"
+        parent="@style/BugleTheme.ConversationActivityBase">
     </style>
 
     <style name="BugleTheme.ConversationActivityBase" parent="BugleTheme">
